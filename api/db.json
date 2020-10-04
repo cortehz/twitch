@@ -15,6 +15,18 @@
       "description": "This is my shit bro",
       "userId": "100976424743678992449",
       "id": 3
+    },
+    {
+      "title": "Another stream",
+      "description": "Programmatic navigation test",
+      "userId": "100976424743678992449",
+      "id": 4
+    },
+    {
+      "title": "a new stream after refacter",
+      "description": "Component reuse",
+      "userId": "100976424743678992449",
+      "id": 5
     }
   ]
 }
