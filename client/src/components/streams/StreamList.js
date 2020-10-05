@@ -27,7 +27,11 @@ class StreamList extends React.Component {
   }
 
   renderList() {
-    return this.props.streams.map((stream) => {
+    const filterStreamByUser = this.props.streams.filter((stream) => {
+      return stream.userId === this.props.currentUserId;
+    });
+
+    return filterStreamByUser.map((stream) => {
       return (
         <div className="item" key={stream.id}>
           {this.renderAdmin(stream)}
